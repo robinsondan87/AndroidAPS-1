@@ -200,8 +200,8 @@ class WizardDialog : DaggerDialogFragment() {
             treatments_wizard_bolusiobcheckbox.isChecked = true
             treatments_wizard_basaliobcheckbox.isChecked = true
         } else {
-            treatments_wizard_bolusiobcheckbox.isEnabled = false
-            treatments_wizard_basaliobcheckbox.isEnabled = false
+            treatments_wizard_bolusiobcheckbox.isEnabled = true
+            treatments_wizard_basaliobcheckbox.isEnabled = true
         }
     }
 
